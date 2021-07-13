@@ -1,9 +1,8 @@
-# Homework Task
+# Hands-On 
 ### `Module 1 - Section 3`
-- [x] Initialize an empty React App (from CRA)
-- [x] Install Axios on that React App
-- [x] Set up Spotify API (client ID)
-- [x] Push the code to github. Repo name : `generasi-gigih-homework`. Add release and tag format.
+- [x] Add search bar of input elements 
+- [x] Add search button next to search bar
+- [x] Add img with the source [gif](https://media.giphy.com/media/Vh8pbGX3SGRwFDh3V0/source.gif)
 
 
 ## Getting Started with Create React App
