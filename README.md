@@ -1,5 +1,5 @@
 # Hands-On 
-### `Module 1 - Section 3`
+### `Module 2 - Section 1`
 - [x] Add search bar of input elements 
 - [x] Add search button next to search bar
 - [x] Add img with the source [gif](https://media.giphy.com/media/Vh8pbGX3SGRwFDh3V0/source.gif)
