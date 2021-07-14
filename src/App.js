@@ -1,5 +1,5 @@
 import './App.css';
-import Search from './components/Search';
+import Search from './pages/Search';
 
 function App() {
   return (
@@ -10,3 +10,5 @@ function App() {
 }
 
 export default App;
+
+

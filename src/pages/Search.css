@@ -1,0 +1,27 @@
+.App {
+    text-align: center;
+    margin:auto;
+    margin-top:10%;
+    display:block;
+  }
+
+  .search-bar{
+    padding:1rem;
+  }
+
+  .window{
+      width:400px;
+      height:300px;
+      border:15px solid black;
+      margin:auto;
+      margin-top:20px;
+      background-color:white;
+      border-radius:10px;
+      overflow:hidden;
+  }
+
+  .window #screen{
+    width:400px;
+  }
+  
+
