@@ -6,7 +6,7 @@
 
 ### `Module 2 - Section 2`
 - [x] From previous exercise, convert elements into components
-= [x] Remember to put your components in `src/components/[your-component-name]/index.js`
+- [x] Remember to put your components in `src/components/[your-component-name]/index.js`
 - [x] For Gif component, read [this JS variable]('https://gist.github.com/mfaarabi/24f2aa2a8baa43567c7ddbdc270135b4') and map as props (hint : just use`url` and `title`)
 
 
