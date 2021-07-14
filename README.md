@@ -4,6 +4,11 @@
 - [x] Add search button next to search bar
 - [x] Add img with the source [gif](https://media.giphy.com/media/Vh8pbGX3SGRwFDh3V0/source.gif)
 
+### `Module 2 - Section 2`
+- [x] From previous exercise, convert elements into components
+= [x] Remember to put your components in `src/components/[your-component-name]/index.js`
+- [x] For Gif component, read [this JS variable]('https://gist.github.com/mfaarabi/24f2aa2a8baa43567c7ddbdc270135b4') and map as props (hint : just use`url` and `title`)
+
 
 ## Getting Started with Create React App
 
