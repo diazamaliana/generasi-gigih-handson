@@ -1,8 +1,10 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   margin:auto;
   margin-top:15%;
   display:block;
+  flex-wrap: wrap;
+
 }
 
 .App-logo {

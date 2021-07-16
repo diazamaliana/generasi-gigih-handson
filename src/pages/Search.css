@@ -1,12 +1,6 @@
-.App {
-    text-align: center;
-    margin:auto;
-    margin-top:10%;
-    display:block;
-  }
-
   .search-bar{
-    padding:1rem;
+    padding:10px;
+    text-align:center;
   }
 
   .window{

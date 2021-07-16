@@ -1,10 +1,12 @@
-import './App.css';
+// import './App.css';
 import Search from './pages/Search';
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Search />
+      <Gallery />
     </div>
   );
 }
