@@ -33,6 +33,6 @@
 - [x] Use the following [endpoint](https://developers.giphy.com/docs/api/endpoint/#search) 
 - [x] Use existing text input and search button to handle user's event
 - [x] Show the first 12 results of the gifs (from the network call)
-- [x] Instead use <input> and <button> inside `/src/pages/search`
+- [x] Instead use `<input>` and `<button>` inside `/src/pages/search`
 
 
