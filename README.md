@@ -28,6 +28,7 @@
 - [x] Filter out rating of `g` (hint: use `rating` field)
 
 ## Module 3
+### `Section 1`
 - [x] Create  a search feture using Giphy API key created from Module 1
 - [x] Use the following [endpoint](https://developers.giphy.com/docs/api/endpoint/#search) 
 - [x] Use existing text input and search button to handle user's event
