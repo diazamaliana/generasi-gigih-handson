@@ -1,8 +1,12 @@
 import style from './style.module.css';
 
-const SearchButton = () => {
+const SearchButton = (props) => {
     return (
-        <button type="submit" className={style.btn}><span>Search</span></button>
+        <button 
+        onClick={props.onClick}
+        type={props.type} 
+        className={style.btn}
+        ><span>Search</span></button>
     ); 
 };
 

@@ -1,14 +1,12 @@
-// import './App.css';
-import Search from './pages/Search';
-import Gallery from './pages/Gallery';
 
+import "./App.css";
+import Search from './pages/Search';
 function App() {
   return (
     <div>
-      <Search />
-      <Gallery />
+       <Search />
     </div>
-  );
+ );
 }
 
 export default App;

@@ -3,6 +3,13 @@
     text-align:center;
   }
 
+  .search-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
   .window{
       width:400px;
       height:300px;
