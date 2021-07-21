@@ -35,4 +35,7 @@
 - [x] Show the first 12 results of the gifs (from the network call)
 - [x] Instead use `<input>` and `<button>` inside `/src/pages/search`
 
+### `Section 2`
+- [x] Convert previous exercise from class component using hooks
+
 
