@@ -1,14 +1,14 @@
 
+import React from "react";
+import Search from "./pages/Search/";
 import "./App.css";
-import Search from './pages/Search';
-function App() {
+
+
+export default function App() {
+  
   return (
-    <div>
-       <Search />
+    <div className="App">
+      <Search />
     </div>
- );
+  );
 }
-
-export default App;
-
-

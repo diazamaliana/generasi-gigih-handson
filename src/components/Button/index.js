@@ -1,13 +1,13 @@
 import style from './style.module.css';
 
-const SearchButton = (props) => {
+const Button = ({children}) => {
     return (
         <button 
-        onClick={props.onClick}
-        type={props.type} 
+        // onClick={props.onClick}
+        // type={props.type} 
         className={style.btn}
-        ><span>Search</span></button>
+        ><span>{children}</span></button>
     ); 
 };
 
-export default SearchButton;
+export default Button;

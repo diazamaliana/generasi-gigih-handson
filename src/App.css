@@ -1,11 +1,16 @@
 .App {
-  /* text-align: center; */
+  text-align: center;
   margin:auto;
-  margin-top:15%;
   display:block;
   flex-wrap: wrap;
+  
 
 }
+
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -42,5 +47,19 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  padding: 0.25rem;
+  list-style: none;
+}
+
 
 
