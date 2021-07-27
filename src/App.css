@@ -48,18 +48,3 @@
   }
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-li {
-  padding: 0.25rem;
-  list-style: none;
-}
-
-
-
