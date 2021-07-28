@@ -38,4 +38,13 @@
 ### `Section 2`
 - [x] Convert previous exercise from class component using hooks
 
+## Module 4
+### `Section 1`
+- [x] Store the search queries on Redux
+
+### `Section 2`
+- [x] Using API provided by [GIPHY](https://developers.giphy.com/docs/api/endpoint/#trending) 
+- [x] Create a Trending Page
+- [x] Reuse the Gif component that you have created earlier.
+
 
