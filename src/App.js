@@ -1,17 +1,19 @@
 
 import React from "react";
-import Search from "./pages/Search/";
-import { store } from "./redux";
-import { Provider } from "react-redux";
+import Navbar from "./components/navbar";
+import Routes from "./router";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 
 
 export default function App() {
   return (
-    <Provider store={store}>
-      <div  className="App">
-          <Search  />
-      </div>
-    </Provider>
+    <div  className="App">
+        <Router>
+            <Navbar/>
+            <Routes/>
+        </Router>
+    </div>
+   
   );
 }
