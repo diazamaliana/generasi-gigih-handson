@@ -37,7 +37,8 @@ const Search = () => {
     // };
   
     return (
-      <div>
+      <div style={{paddingTop:"60px"}}>
+        <h1 style={{color: "white"}}>Search Gifs</h1>
         <SearchBar 
           handleSubmit = {handleSubmitGiphy}
           query = {query}
