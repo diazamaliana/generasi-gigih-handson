@@ -3,17 +3,15 @@ import SearchBar from "../../components/searchBar";
 import GifImage from "../../components/card";
 import style from "./style.module.css";
 import { useEffect, useState } from "react";
-import { getSearchImage } from "../../components/library/giphy";
+import { getSearchImage } from "../../library/giphy";
 import { useDispatch, useSelector } from "react-redux";
 import { storeImage } from "../../redux/store/gifs";
-//import gifs from "../../redux/store/gifs";
-//import gif from "../../data/Mario";
 
 const Search = () => {
   const images = useSelector((state) => state.gifs.images);
   const dispatch = useDispatch();
   useEffect(()=> {
-    getSearchImage("mario").then((data) => {
+    getSearchImage("cat").then((data) => {
       dispatch(storeImage(data.data));
     });
   }, [dispatch]);
@@ -30,11 +28,6 @@ const Search = () => {
         dispatch(storeImage(data.data));
       });
     };
-
-    // const handleQuery = (q) => {
-    //   setQuery(q);
-    //   console.log(q);
-    // };
   
     return (
       <div style={{paddingTop:"60px"}}>
