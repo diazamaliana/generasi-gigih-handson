@@ -2,6 +2,7 @@ import Search from "./pages/Search";
 import Trending from "./pages/Trending";
 import { Switch, Route } from "react-router-dom";
 
+
 const routeList = [
     {
         path: "/trending",
@@ -20,8 +21,8 @@ const routeList = [
 const Routes = () => {
     return (
         <Switch>
-          {routeList.map(({ component, ...rest }) => (
-            <Route {...rest}>{component}</Route>
+          {routeList.map(({ component, ...rest }, idx) => (
+            <Route key={idx} {...rest}>{component}</Route>
           ))}
         </Switch>
       );
