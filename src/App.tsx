@@ -2,17 +2,21 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import Routes from "./router";
+import { store } from "./redux";
+import { Provider } from "react-redux";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 
 
 export default function App() {
   return (
-    <div  className="App">
+    <Provider store={store}>
+      <div className="App">
         <Router>
-            <Navbar/>
-            <Routes/>
+          <Navbar />
+          <Routes />
         </Router>
-    </div>
+      </div>  
+   </Provider>
   );
 }

@@ -1,4 +1,17 @@
-  .btn {
+.searchBar{
+    padding: 10px;
+}
+
+input {
+    width: 138px;
+    height: 20px;
+    padding: 10px 5px;
+    border: 0;
+    background: #EEE;
+    border-radius: 3px 0 0 3px;
+}
+
+.btn {
     text-align: center;
     cursor: pointer;
     font-size: 20px;
@@ -36,3 +49,4 @@
     opacity: 1;
     right: 0;
   }
+

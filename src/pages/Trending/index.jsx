@@ -1,5 +1,5 @@
 import React from "react";
-import GifImage from "../../components/card";
+import GifCard from "../../components/gifCard";
 import style from "./style.module.css";
 import { useEffect } from "react";
 import { getTrendingImage } from "../../library/giphy";
@@ -21,7 +21,7 @@ const Trending = () => {
         <h1 style={{color: "white"}}>Trending Gifs</h1>
         <div className={style.wrapper}>
           {images.map((image) => (
-              <GifImage
+              <GifCard
                 key={image.id}
                 title={image.title}
                 url={image.images.fixed_height.url}

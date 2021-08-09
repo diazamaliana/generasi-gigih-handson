@@ -47,4 +47,8 @@
 - [x] Create a Trending Page
 - [x] Reuse the Gif component that you have created earlier.
 
+## Module 6
+### `Section 1`
+- [x] Write a test for Search component
+
 

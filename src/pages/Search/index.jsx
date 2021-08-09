@@ -1,6 +1,6 @@
 import React from "react";
 import SearchBar from "../../components/searchBar";
-import GifImage from "../../components/card";
+import GifCard from "../../components/gifCard";
 import style from "./style.module.css";
 import { useEffect, useState } from "react";
 import { getSearchImage } from "../../library/giphy";
@@ -40,7 +40,7 @@ const Search = () => {
         <div className={style.wrapper}>
           {images.map((image) => {
           return (
-              <GifImage
+              <GifCard
                 key={image.id}
                 title={image.title}
                 url={image.images.fixed_height.url}
